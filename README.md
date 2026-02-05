@@ -1,141 +1,228 @@
-# 🎮 Game Churn & Player Progression Analysis
-
-This project analyzes player behavior and churn patterns in a mobile puzzle game using progression data.
-
-The goal is to identify problem levels, understand session behavior, and compare platform performance to improve player retention.
-
----
-
-## 📌 Project Overview
-
-This case study focuses on analyzing:
-
-- Daily active users
-- Level progression
-- Session distribution
-- Player churn by level
-- Platform comparison (iOS vs Android)
-
-It helps product teams understand where and why players drop off.
+<p align="center">
+  <a href="#-english">🇬🇧 English</a> |
+  <a href="#-türkçe">🇹🇷 Türkçe</a>
+</p>
 
 ---
 
-## ✨ Features
+# 🎮 Game Churn & Player Behavior Analysis
 
-- ✔️ Daily Active Users (DAU) analysis
-- ✔️ Session length distribution
-- ✔️ Churn rate calculation by level
-- ✔️ Hypothesis testing (iOS vs Android)
-- ✔️ Visualization of problem levels
-- ✔️ Data-driven recommendations
+A data analysis case study focused on player progression and churn behavior in a mobile puzzle game.
 
 ---
 
-## 🛠️ Technologies Used
+## 📌 English
 
-- Python 3
-- Pandas
-- NumPy
-- Matplotlib
-- SciPy
-- Jupyter Notebook
+### 📖 About the Project
+
+This project analyzes player progression data to identify difficult levels and churn patterns in a mobile game.
+
+The main goal is to help improve player retention by detecting problem areas in gameplay.
+
+⚠️ **Note:**  
+This is a private case study. The original dataset is confidential and not shared publicly.
 
 ---
 
-## 📂 Project Structure
+### ✨ Features
+
+- ✔️ Level-based churn analysis  
+- ✔️ Session distribution analysis  
+- ✔️ iOS vs Android comparison  
+- ✔️ Statistical hypothesis testing  
+- ✔️ Data visualization  
+- ✔️ Product recommendations  
+
+---
+
+### 🛠️ Technologies
+
+- Python 3  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- SciPy  
+- Jupyter Notebook  
+
+---
+
+### 📂 Project Structure
 
 game-churn-analysis/
 │
-
+|
 │ ├── churn_rate_by_level.png
 │ ├── level23_ios_android_completion.png
 │ └── session_disturbiton.png
 │
 ├── game_churn_analysis.ipynb
 ├── case_study.ipynb
-└── README.md
+└── README.md---
+
+### 📊 Visualizations
+
+#### Churn Rate by Level
+![Churn](churn_rate_by_level.png)
+
+#### Level 23: iOS vs Android
+![Platform](level23_ios_android_completion.png)
+
+#### Session Distribution
+![Session](session_disturbiton.png)
 
 ---
 
-## 📊 Key Visualizations
+### 📈 Key Findings
 
-### 1️⃣ Churn Rate by Level
-Identifies levels where players drop out most frequently.
-
-![Churn Rate](churn_rate_by_level.png)
-
----
-
-### 2️⃣ Level 23 Platform Comparison
-Compares completion rates between iOS and Android players.
-
-![Platform Comparison](level23_ios_android_completion.png)
+- Highest churn at levels: 50, 47, 40, 30, 20  
+- Average session: ~5 levels  
+- iOS users perform better on Level 23  
+- Late-game fatigue is observed  
 
 ---
 
-### 3️⃣ Session Distribution
-Shows how many levels players complete per session.
+### 📑 Statistical Analysis (Task 4)
 
-![Session Distribution](session_disturbiton.png)
+A two-sample t-test was applied to Level 23.
 
----
+- p-value < 0.05  
+- Significant difference detected  
 
-## 📈 Main Findings
-
-- Major churn spikes occur at levels: 50, 47, 40, 30, and 20.
-- Most users complete around 5 levels per session.
-- iOS users perform significantly better than Android users on Level 23.
-- Late-game levels show increasing player fatigue.
+Device type affects performance.
 
 ---
 
-## 📑 Hypothesis Testing (Task 4)
+### ✅ Recommendations (Task 5)
 
-A two-sample t-test was conducted on Level 23:
+#### Priority Levels: 50 & 47
 
-- H₀: No difference between iOS and Android completion rates.
-- H₁: A significant difference exists.
+**Level 50**
+- Highest churn
+- High difficulty
 
-Result:
-- p-value < 0.05
-- H₀ rejected
+Suggestions:
+- Increase move limits  
+- Simplify mechanics  
+- Add hints  
 
-Conclusion:
-Device type affects performance on Level 23.
+**Level 47**
+- Complex objectives
 
----
-
-## ✅ Recommendations (Task 5)
-
-### Priority Levels: 50 and 47
-
-#### Level 50
-- Highest churn rate
-- Possible difficulty spike
-- Recommendation:
-  - Increase move limit
-  - Simplify mechanics
-  - Add hints
-
-#### Level 47
-- Second highest churn
-- Players struggle with objectives
-- Recommendation:
-  - Improve tutorials
-  - Adjust level balance
-
-Both levels should be prioritized for redesign.
+Suggestions:
+- Add tutorials  
+- Improve balancing  
 
 ---
 
-## 🚀 How to Run
+### 🚀 Running the Project
 
-1. Clone the repository:
-```bash
-git clone https://github.com/username/game-churn-analysis.git
-Open the notebook:
+``` 
+git clone https://github.com/your-username/game-churn-analysis.git
 jupyter notebook
-Run game_churn_analysis.ipynb
+⚠️ Dataset is not included.
 
-📄 License
-This project is for educational and case study purposes.
+🇹🇷 Türkçe
+📖 Proje Hakkında
+Bu proje, mobil bir puzzle oyunundaki oyuncu ilerleme ve terk etme davranışlarını analiz etmektedir.
+
+Amaç, zorlayıcı seviyeleri belirleyerek oyuncu kaybını azaltmaktır.
+
+⚠️ Not:
+Bu çalışma kapalı bir case study kapsamında yapılmıştır. Veri seti paylaşılmamaktadır.
+
+✨ Özellikler
+✔️ Level bazlı churn analizi
+
+✔️ Seans dağılımı analizi
+
+✔️ iOS & Android karşılaştırması
+
+✔️ İstatistiksel testler
+
+✔️ Veri görselleştirme
+
+✔️ Ürün önerileri
+
+🛠️ Kullanılan Teknolojiler
+Python 3
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+SciPy
+
+Jupyter Notebook
+
+📂 Proje Yapısı
+ 
+peak_case_study/
+│
+├── images/
+│   ├── churn_rate_by_level.png
+│   ├── level23_ios_android_completion.png
+│   └── session_disturbiton.png
+│
+├── game_churn_analysis.ipynb
+├── case_study.ipynb
+└── README.md
+📊 Grafikler
+Level Bazlı Churn
+
+Level 23 Platform Karşılaştırması
+
+Seans Dağılımı
+
+📈 Temel Bulgular
+En yüksek churn: 50, 47, 40, 30, 20
+
+Ortalama seans: ~5 level
+
+iOS kullanıcıları daha başarılı
+
+İleri seviyelerde yorgunluk var
+
+📑 İstatistiksel Analiz (Task 4)
+Level 23 için t-test uygulanmıştır.
+
+p-value < 0.05
+
+Anlamlı fark vardır
+
+Cihaz türü performansı etkilemektedir.
+
+✅ Öneriler (Task 5)
+Öncelikli Seviyeler: 50 & 47
+Level 50
+
+En yüksek terk oranı
+
+Öneriler:
+
+Hamle sayısı artırılmalı
+
+Mekanikler sadeleştirilmeli
+
+İpucu eklenmeli
+
+Level 47
+
+Karmaşık hedefler
+
+Öneriler:
+
+Tutorial eklenmeli
+
+Dengeleme yapılmalı
+
+🚀 Çalıştırma
+ 
+ 
+git clone https://github.com/kullaniciadi/game-churn-analysis.git
+jupyter notebook
+⚠️ Veri seti paylaşılmamaktadır.
+
+📄 Lisans
+Eğitim ve portföy amaçlıdır.
