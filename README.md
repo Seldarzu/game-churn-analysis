@@ -11,7 +11,8 @@ A data analysis case study focused on player progression and churn behavior in a
 
 ---
 
-## 📌 English
+## English
+<a name="english"></a>
 
 ### 📖 About the Project
 
@@ -121,7 +122,8 @@ git clone https://github.com/your-username/game-churn-analysis.git
 jupyter notebook
 ⚠️ Dataset is not included.
 
-🇹🇷 Türkçe
+## Türkçe
+<a name="turkce"></a>
 📖 Proje Hakkında
 Bu proje, mobil bir puzzle oyunundaki oyuncu ilerleme ve terk etme davranışlarını analiz etmektedir.
 
@@ -158,9 +160,9 @@ Jupyter Notebook
 
 📂 Proje Yapısı
  
-peak_case_study/
+game-churn-analysis/
 │
-├── images/
+
 │   ├── churn_rate_by_level.png
 │   ├── level23_ios_android_completion.png
 │   └── session_disturbiton.png
