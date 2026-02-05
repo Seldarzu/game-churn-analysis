@@ -115,23 +115,25 @@ Suggestions:
 - Improve balancing  
 
 ---
-
-### 🚀 Running the Project
-
-``` 
+🚀 Running the Project
 git clone https://github.com/your-username/game-churn-analysis.git
 jupyter notebook
+
+
 ⚠️ Dataset is not included.
 
-## Türkçe
-<a name="turkce"></a>
-📖 Proje Hakkında
-Bu proje, mobil bir puzzle oyunundaki oyuncu ilerleme ve terk etme davranışlarını analiz etmektedir.
+Türkçe
 
-Amaç, zorlayıcı seviyeleri belirleyerek oyuncu kaybını azaltmaktır.
+<a name="turkce"></a>
+
+📖 Proje Hakkında
+
+Bu proje, mobil bir puzzle oyunundaki oyuncu ilerleme ve terk etme (churn) davranışlarını analiz etmektedir.
+
+Amaç, zorlayıcı seviyeleri belirleyerek oyuncu kaybını azaltmaya yardımcı olmaktır.
 
 ⚠️ Not:
-Bu çalışma kapalı bir case study kapsamında yapılmıştır. Veri seti paylaşılmamaktadır.
+Bu çalışma kapalı bir case study kapsamında yapılmıştır. Veri seti gizlidir ve paylaşılmamaktadır.
 
 ✨ Özellikler
 ✔️ Level bazlı churn analizi
